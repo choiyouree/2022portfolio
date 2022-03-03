@@ -1,0 +1,902 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <!-- 파비콘 연결 -->
+    <link rel="shortcut icon" href="img/favicon.png" type="image/icon">
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <!-- fullpage.css -->
+    <link rel="stylesheet" href="css/jquery.fullpage.css" type="text/css">
+    <!-- 외부css연결 -->
+    <link rel="stylesheet" href="css/portfolio.css" type="text/css">
+    <!-- 제이쿼리 라이브러리 -->
+    <script src="js/jquery-3.6.0.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- fullpage.js -->
+    <script src="js/jquery.fullpage.js"></script>
+    <!-- 외부 js 연결 -->
+    <script src="js/portfolio.js"></script>
+    
+    <title>최유리 포트폴리오</title>
+</head>
+<body>
+    <header>
+        <div class="center">
+            <div class="logo">
+                <a href="choiyouree_porfolio.html#intro">
+                    <img src="img/small_logo.png" alt="로고">
+                </a>
+            </div>
+            <div class="intro_sub_text">
+                <p>CHOI YOU REE 2022 PORTFOLIO</p>
+            </div>
+            <!-- 주메뉴 -->
+            <nav>
+                <ul id="myMenu">
+                    <li data-menuanchor="intro"><a href="#intro">Intro
+                        <div data-menuanchor="intro" class="menu_img active"><img src="img/favicon.png" alt="메뉴 아이콘"></div>
+                    </a></li>
+                    <li data-menuanchor="about"><a href="#about">About
+                        <div data-menuanchor="about" class="menu_img"><img src="img/favicon.png" alt="메뉴 아이콘"></div>
+                    </a></li>
+                    <li data-menuanchor="web"><a href="#web">Web portfolio
+                        <div data-menuanchor="web" class="menu_img"><img src="img/favicon.png" alt="메뉴 아이콘"></div>
+                    </a></li>
+                    <li data-menuanchor="editable"><a href="#editable">Editable
+                        <div data-menuanchor="editable" class="menu_img"><img src="img/favicon.png" alt="메뉴 아이콘"></div>
+                    </a></li>
+                    <li data-menuanchor="contact"><a href="#contact">Contact
+                        <div data-menuanchor="contact" class="menu_img"><img src="img/favicon.png" alt="메뉴 아이콘"></div>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div id="fullpage">
+        <section class="section section1 intro">
+            <div class="center">
+                <div class="intro_logo">
+                    <!-- 메인이미지 유리구슬 이미지 -->
+                    <div class="intro_logo_img">
+                        <img src="img/big_logo.png" alt="인트로 원형 유리구슬 이미지">
+                    </div>
+                    <div class="intro_logo_shadow">
+                        <img src="img/big_logo_shadow.png" alt="인트로 원형 이미지 그림자">
+                    </div>
+                    <!-- 반짝거리는 빛 아이콘/이미지 -->
+                    <div class="intro_logo_twinkle">
+                        <img src="img/twinkle_icon.png" alt="반짝 아이콘 이미지">
+                    </div>
+                    <div class="intro_logo_twinkle2">
+                        <img src="img/twinkle_icon.png" alt="반짝 아이콘 이미지">
+                    </div>
+                </div>
+                <div class="intro_text">
+                    <h1>유리-하다.</h1>
+                    <div class="flip_txt_wrap">
+                        <div class="flip_txt">
+                            <ul>
+                                <li>시각디자인</li>
+                                <li>웹디자인</li>
+                                <li class="ui">UI · UX</li>
+                            </ul>
+                        </div>
+                        <span>에 유리하다.</span>
+                    </div>
+                    <div class="intro_txt_box"></div>
+                    <P>저의 작업공간에 오신 것을 환영합니다!</P>
+                </div>
+                <!-- 스크롤  -->
+                <div class="scroll">
+                    <p>SCROLL</p>
+                    <div class="scroll_btn">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section section2 about">
+            <div class="center_2">
+                <div class="about_me">
+                    <div class="about_me_left">
+                        <h2>ABOUT ME</h2>
+                        <hr class="about_stroke">
+                        <div class="me_left_txt">
+                            <div class="me_circle">
+                                <img src="img/about_me_circle_icon.png" alt="나에대한설명에 대한 원 교집합 아이콘">
+                                <div class="me_circle_txt">
+                                    <ul>
+                                        <li>정직한</li>
+                                        <li>유리한</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <p>어떠한 상황에서도 <span>정직</span>하고 <span>유리</span>하게
+                            <br>일하는 디자이너가 되고 싶습니다
+                            </p>
+                            <div class="me_box_wrap">
+                                <div class="me_img">
+                                    <img src="img/me_img.png" alt="최유리 사진">
+                                </div>
+                                <div class="me_img_bg"></div>
+                                <div class="me_box">
+                                    <ul>
+                                        <li id="box1"># 사람이좋아</li>
+                                        <li id="box2"># 긍정적마인드</li>
+                                        <li id="box3"># 디자인으로 무한한 나를 표현하는 사람</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about_me_right_wrap">
+                        <div class="about_me_right">
+                            <div class="about_me_right_top">
+                                <h3>최유리</h3>
+                                <hr class="about_stroke">
+                                <div class="me_top_txt">
+                                    <ul>
+                                        <li><div class="cir"></div>인성여자고등학교 졸업</li>
+                                        <li><div class="cir"></div>한서대학교 시각디자인학과 졸업</li>
+                                        <li><div class="cir"></div>스마트 모바일 UI/UX 웹디자인&웹퍼블리셔 과정 수료</li>
+                                    </ul>
+                                </div>
+                                <hr class="about_stroke">
+                            </div>
+                            <div class="about_me_right_center">
+                                <ul>
+                                    <li>변화하는 시대에<br>맞춰빠르게 적응하고<br>계발하겠습니다.</li>
+                                    <li>사교성 있는 성격으로<br>협동하여 완성도 높은 결과를<br>도출하겠습니다.</li>
+                                    <li>근면한 태도로<br>기업의 큰 발전이 있도록<br>기여하겠습니다.</li>
+                                </ul>
+                                <div class="cir_wrap">
+                                    <div class="cir2"></div>
+                                    <div class="cir2"></div>
+                                    <div class="cir2"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about_me_right_2">
+                            <h3>I CAN DO</h3>
+                            <div class="do_list">
+                                <ul>
+                                    <li class="do_icon"><img src="img/ps_icon.png" alt="포토샵 아이콘"></li>
+                                    <li class="do_icon"><img src="img/ai_icon.png" alt="일러스트레이터 아이콘"></li>
+                                    <li class="do_icon"><img src="img/id_icon.png" alt="인디자인 아이콘"></li>
+                                    <li><img src="img/html_icon_vi.png" alt="html 아이콘"></li>
+                                    <li><img src="img/css_icon_vi.png" alt="css 아이콘"></li>
+                                    <li><img src="img/js_icon_vi.png" alt="java script 아이콘"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="about_me_right_3">
+                            <div class="me_right3_left">
+                                <h3>LICENSE</h3>
+                                <div class="license">
+                                    <ul>
+                                        <li>한글 / 엑셀 / 파워포인트 ITQ</li>
+                                        <li>웹디자인 기능사 (예정)</li>
+                                        <li>포토샵 GTQ</li>
+                                        <li>운전면허 보통 2종</li>
+                                    </ul>
+                                </div>
+                                <div class="licen_stroke"></div>
+                            </div>
+                            <div class="me_right3_right">
+                                <h3>HOBBY</h3>
+                                <div class="hobby">
+                                    <ul>
+                                        <li>
+                                            <img src="img/bol_icon.png" alt="볼링 아이콘">
+                                            <p>볼링</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/dog_icon.png" alt="강아지 아이콘">
+                                            <p>애견카페 도장깨기</p>
+                                        </li>
+                                        <li>
+                                            <img src="img/diary_icon.png" alt="다이어리 아이콘">
+                                            <p>다이어리 꾸미기</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="sns_list">
+                    <ul>
+                        <li><a href="#insta"></a></li>
+                        <li><a href="#mail"></a></li>
+                        <li><a href="#kakao"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="section section3 web">
+            <div class="por_logo">
+                <div class="por_logo_img"><img src="img/big_logo2.png" alt="포트폴리오 상단 로고 이미지"></div>
+                <h3>WEB PORTFOLIO</h3>
+            </div>
+            <div class="swiper mySwiper2">
+                <div class="center swiper-wrapper">
+                    <!-- 첫번째 슬라이드 -->
+                    <div class="por_wrap swiper-slide s1">
+                        <div class="info_txt">
+                            <div class="info_txt_title">
+                                <span>1</span><h2>k2 리뉴얼 사이트</h2>
+                            </div>
+                            <div class="h4_box_bg">
+                            </div>
+                            <div class="info_txt_in">
+                                <ul>
+                                    <span>컨셉</span><li>로고를 리디자인 하였고, 로고의 주조색을 강조하고 큰 사진과 적절한 여백 활용으로 강렬함과 깔끔함을 컨셉으로 하여 리뉴얼 디자인하였습니다.
+                                        <br>(해상도 가로 1920* 사이즈를 최적화로 디자인되어 있습니다.)
+                                    </li>
+                                    <span>칼라</span><li>
+                                        <div class="color">
+                                            <div class="color_cir1"></div>
+                                            <div class="color_cir2"></div>
+                                            <div class="color_cir3"></div>
+                                        </div>
+                                    </li>
+                                    <span>프로그램</span><li>
+                                        <ul class="program">
+                                            <li>Adobd Photoshop</li>
+                                            <li>Adobd Illustrator</li>
+                                            <li>Visual Studio Code</li>
+                                        </ul>
+                                    </li>
+                                    <span>벤치마킹 사이트</span><li>
+                                        하나금융파인드 https://www.hanafind.com/
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site_btn">
+                                <ul>
+                                    <li><a href="#" onclick='Ven1()'>벤치마킹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Web1()'>웹 사이트 바로가기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="por_img">
+                            <img src="img/por_web_1.png" alt="k2 웹페이지 목업 이미지">
+                        </div>
+                    </div>
+                    <!-- 두번째슬라이드 -->
+                    <div class="por_wrap swiper-slide s2">
+                        <div class="info_txt">
+                            <div class="info_txt_title">
+                                <span>2</span><h2>Agoda 리뉴얼 사이트</h2>
+                            </div>
+                            <div class="h4_box_bg">
+                            </div>
+                            <div class="info_txt_in">
+                                <ul>
+                                    <span>컨셉</span><li>Agoda 로고 컨셉인 다채롭고 자유로운 분위기의 컨셉으로 3개 이상의 이미지로 분류하여 소비자에게 비교적 많은 정보를 주고자 하였습니다.</li>
+                                    <span>칼라</span><li>
+                                        <div class="color">
+                                            <div class="color_cir1"></div>
+                                            <div class="color_cir2"></div>
+                                            <div class="color_cir3"></div>
+                                            <div class="color_cir4"></div>
+                                            <div class="color_cir5"></div>
+                                        </div>
+                                    </li>
+                                    <span>프로그램</span><li>
+                                        <ul class="program">
+                                            <li>Adobd Photoshop</li>
+                                            <li>Adobd Illustrator</li>
+                                            <li>Visual Studio Code</li>
+                                        </ul>
+                                    </li>
+                                    <span>벤치마킹 사이트</span><li>
+                                        지산리조트 https://www.jisanresort.co.kr
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site_btn">
+                                <ul>
+                                    <li><a href="#" onclick='Ven2()'>벤치마킹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Web2()'>웹 사이트 바로가기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="por_img">
+                            <img src="img/por_web_2.png" alt="아고다 웹 페이지 목업">
+                        </div>
+                    </div>
+                    <!-- 세번째 슬라이드 -->
+                    <div class="por_wrap swiper-slide s3">
+                        <div class="info_txt">
+                            <div class="info_txt_title">
+                                <span>3</span><h2>국가문화유산포털 리뉴얼 사이트</h2>
+                            </div>
+                            <div class="h4_box_bg">
+                            </div>
+                            <div class="info_txt_in">
+                                <ul>
+                                    <span>컨셉</span><li>로고의 주조색을 이용하여 통일성이 느껴지도록 하고, 여백을 최대한 이용하여 심플한 컨셉으로 디자인 하였습니다.</li>
+                                    <span>칼라</span><li>
+                                        <div class="color">
+                                            <div class="color_cir1 color"></div>
+                                            <div class="color_cir2 color"></div>
+                                            <div class="color_cir3 color"></div>
+                                        </div>
+                                    </li>
+                                    <span>프로그램</span><li>
+                                        <ul class="program">
+                                            <li>Adobd Photoshop</li>
+                                            <li>Adobd Illustrator</li>
+                                            <li>Visual Studio Code</li>
+                                        </ul>
+                                    </li>
+                                    <span>벤치마킹 사이트</span><li>
+                                        폴렉스존 http://pollexzone.com/
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site_btn">
+                                <ul>
+                                    <li><a href="#" onclick='Ven3()'>벤치마킹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Web3()'>웹 사이트 바로가기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="por_img">
+                            <img src="img/por_web_3.png" alt="국가문화유산포털 웹페이지 목업 이미지">
+                        </div>
+                    </div>
+                    <!-- 네번째 슬라이드 -->
+                    <div class="por_wrap swiper-slide s4">
+                        <div class="info_txt">
+                            <div class="info_txt_title">
+                                <span>4</span><h2>스타벅스 리뉴얼 사이트 (반응형)</h2>
+                            </div>
+                            <div class="h4_box_bg">
+                            </div>
+                            <div class="info_txt_in">
+                                <ul>
+                                    <span>컨셉</span><li>스타벅스를 상징하는 이미지를 크게 표현하여 브랜드 이미지를 최대한 나타내도록 하였고, 큰이미지를 상품 분류를 나타내어 정보전달에 편리하도록 나타내었습니다.</li>
+                                    <span>칼라</span><li>
+                                        <div class="color">
+                                            <div class="color_cir1"></div>
+                                            <div class="color_cir2"></div>
+                                            <div class="color_cir3"></div>
+                                        </div>
+                                    </li>
+                                    <span>프로그램</span><li>
+                                        <ul class="program">
+                                            <li>Adobd Photoshop</li>
+                                            <li>Adobd Illustrator</li>
+                                            <li>Visual Studio Code</li>
+                                        </ul>
+                                    </li>
+                                    <span>벤치마킹 사이트</span><li>
+                                        네오포레 https://www.neoforet.co.kr/
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site_btn">
+                                <ul>
+                                    <li><a href="#" onclick='Ven4()'>벤치마킹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Web4()'>웹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Tab4()'>태블릿 바로가기</a></li>
+                                    <li><a href="#" onclick='Mo4()'>모바일 바로가기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="por_img">
+                            <img src="img/por_web_4.png" alt="스타벅스 웹페이지 목업 이미지">
+                        </div>
+                    </div>
+                    <!-- 다섯번째 슬라이드 -->
+                    <div class="por_wrap swiper-slide s5">
+                        <div class="info_txt">
+                            <div class="info_txt_title">
+                                <span>5</span><h2>키엘 리뉴얼 사이트 (반응형)</h2>
+                            </div>
+                            <div class="h4_box_bg">
+                            </div>
+                            <div class="info_txt_in">
+                                <ul>
+                                    <span>컨셉</span><li> 스와이퍼 슬라이드를 이용하여 여러개의 큰 이미지를 보여주도록 하였고, 이미지를 활용한 화장품 분류 또한 이미지 슬라이드를 이용해 표현하였다. 태블릿, 모바일에서도 사용할 수 있도록 제작하였다. </li>
+                                    <span>칼라</span><li>
+                                        <div class="color">
+                                            <div class="color_cir1"></div>
+                                            <div class="color_cir2"></div>
+                                            <div class="color_cir3"></div>
+                                        </div>
+                                    </li>
+                                    <span>프로그램</span><li>
+                                        <ul class="program">
+                                            <li>Adobd Photoshop</li>
+                                            <li>Adobd Illustrator</li>
+                                            <li>Visual Studio Code</li>
+                                        </ul>
+                                    </li>
+                                    <span>벤치마킹 사이트</span><li>
+                                        오늘레스토랑 https://www.restaurantoneul.com/
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site_btn">
+                                <ul>
+                                    <li><a href="#" onclick='Ven5()'>벤치마킹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Web5()'>웹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Tab5()'>태블릿 바로가기</a></li>
+                                    <li><a href="#" onclick='Mo5()'>모바일 바로가기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="por_img">
+                            <img src="img/por_web5.png" alt="키엘 웹페이지 목업 이미지">
+                        </div>
+                    </div>
+                    <!-- 여섯번째슬라이드 -->
+                    <div class="por_wrap swiper-slide s6">
+                        <div class="info_txt">
+                            <div class="info_txt_title">
+                                <span>6</span><h2>코엑스 리뉴얼 사이트 (모바일 버전)</h2>
+                            </div>
+                            <div class="h4_box_bg">
+                            </div>
+                            <div class="info_txt_in">
+                                <ul>
+                                    <span>컨셉</span><li>코엑스 로고의 주조색과 보조색을 이용하여 아이콘,메뉴 등을 디자인하였고, 탭메뉴와 스와이퍼 슬라이드를 이용하여 디자인하였습니다.
+                                    </li>
+                                    <span>칼라</span><li>
+                                        <div class="color">
+                                            <div class="color_cir1"></div>
+                                            <div class="color_cir2"></div>
+                                            <div class="color_cir3"></div>
+                                        </div>
+                                    </li>
+                                    <span>프로그램</span><li>
+                                        <ul class="program">
+                                            <li>Adobd Photoshop</li>
+                                            <li>Adobd Illustrator</li>
+                                            <li>Visual Studio Code</li>
+                                        </ul>
+                                    </li>
+                                    <span>벤치마킹 사이트</span><li>
+                                        포스코오엔엠 https://www.poscoonm.com/
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="site_btn">
+                                <ul>
+                                    <li><a href="#" onclick='Ven6()'>벤치마킹 사이트 바로가기</a></li>
+                                    <li><a href="#" onclick='Web6()'>모바일 버전 바로가기</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="por_img">
+                            <ul>
+                                <li><img src="img/phone4.png" alt="코엑스 모바일 목업 이미지"></li>
+                                <li><img src="img/por_web_phone.png" alt="코엑스 모바일 목업 이미지"></li>
+                                <li><img src="img/phone3.png" alt="코엑스 모바일 목업 이미지"></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <!-- 배경에 해당하는 그림자 이미지 -->
+            <div class="back_shadow"></div>
+        </section>
+        <section class="section section4 editable">
+            <div class="por_logo">
+                <div class="por_logo_img"><img src="img/big_logo2.png" alt="포트폴리오 상단 로고 이미지"></div>
+                <h3>EDITABLE</h3>
+            </div>
+            <div class="center">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <!-- 1번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>1</span><h2>명함 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>개인 명함으로, 밝은 파스텔 배경 칼라와 진한 블루 계열로 포인트 주어, 
+                                            부드럽지만 밝고 명쾌한 컨셉의 명함으로 디자인 하였습니다.</li>
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            2시간
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/card1.png" alt="개인 명함 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 2번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>2</span><h2>명함 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>샌드위치 가게 로고를 식감을 자극하는 레드 계열로 디자인하였습니다. 
+                                            식빵과 토마토를 이용한 로고 디자인하였으며, 로고를 이용하여 패턴화하여 명함 배경으로 활용하였습니다.</li>
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            1시간 30분
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/card2.png" alt="개인 명함 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 3번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>3</span><h2>명함 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>꾸르펫토리라는 브랜드네이밍과 로고를 디자인하였습니다. 꾸르펫토리는 꿀+펫+스토리를 결합한 꿀같은 반려견과의 이야기를 뜻합니다.
+                                        꿀하면 연상되는 옐로우 색감과 나비, 강아지 이미지를 활용하여 로고 디자인하였고, 그에 따른 명함을 디자인하였습니다.</li>
+                                        
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            1시간 30분
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/card3.jpg" alt="개인 명함 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 네번째슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>4</span><h2>포스터 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>
+                                            서울 일러스트 페어를 홍보하는 포스터 디자인입니다. 페어에 참여하는 일러스트 작가들의 작품들을 작게 보여주고 홍보효과를 나타내도록 하였고,
+                                            다이어리를 꾸미는 듯한 공책 배경에 스티커를 붙이는 컨셉으로 디자인하였습니다.
+                                        </li>
+                                        
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            1시간
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/poster_mockup.jpg" alt="일러스트 페어 포스터 디자인 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 다섯번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>5</span><h2>북커버 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>'내가 죽으면 장례식장에 누가 와줄까'라는 어쩐지 쓸쓸하고 심오한 컨셉으로 붓이 스친듯한 일러스트로 표현하였습니다..
+                                            무채색에 채도가 낮은 색을 사용하였으며, 가독성을 위해 어두운 배경에 화이트 칼라의 글씨가 잘 보이도록 하였습니다.
+                                        </li>
+                                        
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            2시간
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/book_mockup1.jpg" alt="책 커버 디자인 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 여섯번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>6</span><h2>리플렛 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>서브웨이란 샌드위치 전문점을 처음 방문했을 때, 주문하는 방법을 몰라서 우물쭈물 대던 기억이 떠오릅니다. 서브웨이에서 남녀노소 누구나 맛있는 한끼를 먹었으면 좋겠다 라는 마음에서 서브웨이 주문 방법을 알려주는 리플렛을 디자인하게 되었습니다.
+                                            이 리플렛을 보고 많은 사람들이 자신만의 맛있는 샌드위치 꿀조합을 찾길 바랍니다.
+                                        </li>
+                                        
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            3시간 30분
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/subway_1.jpg" alt="서브웨이 팜플렛 디자인 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 일곱번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>7</span><h2>실외 배너 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>'오늘 감성주점'이라는 퓨전주점에서 사용되는 배너 디자인입니다. 여러가지 단품메뉴, 세트메뉴, 주류 종류에 대해서 알려주고 홍보하는 효과를 볼 수 있습니다.
+                                            감성주점에 컨셉을 잡고 차분하고 따듯한 칼라를 이용하여 디자인하였습니다.
+                                        </li>
+                                        
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            4시간
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/banner_mockup.jpg" alt="오늘감성주점 배너 디자인 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 여덟번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>8</span><h2>메뉴판 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>레스토랑 메뉴판 디자인입니다. 손그림 같은 일러스트를 삽입하여 시각효과와 음식이미지 사진으로 정보성을 높게 하여
+                                            배경은 채도가 낮지만 따듯한 색감들로 조금씩 변화를 주었고, 하지만 통일성 있는 디자인으로 심플함과 깔끔함을 나타내고자 하였습니다.
+                                        </li>
+                                        
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            2시간
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/menu_mockup.jpg" alt="오늘감성주점 메뉴판 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 아홉번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>9</span><h2>패키지 디자인</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>강원도 평창에 위치한 관광지인 삼양목장을 알리기 위한 취지로, 삼양목장 우유로 만든 아이스크림 패키지 디자인입니다.
+                                            귀여운 젖소와 삼양목장의 마스코트인 양 캐릭터를 제작하여 삽입하였습니다. 전체적으로 아기자기한 목장의 컨셉으로 디자인하였습니다.
+                                        </li>
+                                       
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            2시간
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/pack_mockup.png" alt="개인 명함 목업 이미지">
+                            </div>
+                        </div>
+                        <!-- 열번째 슬라이드 -->
+                        <div class="swiper-slide">
+                            <div class="swiper_txt">
+                                <div class="swiper_txt_title">
+                                    <span>10</span><h2>인물 일러스트</h2>
+                                </div>
+                                <div class="h4_box_bg">
+                                </div>
+                                <div class="swiper_txt_in">
+                                    <ul>
+                                        <span>컨셉</span><li>제가 좋아하는 배우인 수지님의 인물 일러스트입니다. 전부 펜툴을 사용하여 전체적인 얼굴윤곽, 머리카락, 이목구비를 표현하고 그 후에 작은 부분인
+                                            머리카락 하이라이트, 눈동자, 코와 입술 명암 등을 넣어 완성하였습니다.
+                                        </li>
+                                       
+                                        <span>프로그램</span><li>
+                                            <ul class="program">
+                                                <li>Adobd Photoshop</li>
+                                                <li>Adobd Illustrator</li>
+                                            </ul>
+                                        </li>
+                                        <span>소요시간</span>
+                                        <li>
+                                            1시간
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="swiper_img">
+                                <img src="img/illust_mockup.jpg" alt="인물 일러스트 목업 이미지">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+        <section class="section section5 contact">
+            <div class="center">
+                <div class="contact_logo">
+                    <!-- 메인이미지 유리구슬 이미지 -->
+                    <div class="contact_logo_img">
+                        <img src="img/big_logo.png" alt="인트로 원형 유리구슬 이미지">
+                    </div>
+                    <div class="contact_logo_shadow">
+                        <img src="img/big_logo_shadow.png" alt="인트로 원형 이미지 그림자">
+                    </div>
+                    <!-- 반짝거리는 빛 아이콘/이미지 -->
+                    <div class="contact_logo_twinkle">
+                        <img src="img/twinkle_icon.png" alt="반짝 아이콘 이미지">
+                    </div>
+                    <div class="contact_logo_twinkle2">
+                        <img src="img/twinkle_icon.png" alt="반짝 아이콘 이미지">
+                    </div>
+                </div>
+                <form class="gform" method="POST" data-email="youree9494@gmail.com" action="https://script.google.com/macros/s/AKfycby1gzzxiQKxtt-r7tknYZ_-xeGhD9-jpxDty7ZA/exec">
+                    <div class="contact_tilte">   
+                        <h3>CONTACT ME!</h3>
+                        <div class="sns_list">
+                            <ul>
+                                <li class="popup_btn"><a href="#"><img src="img/kakao_icon.png" alt="카카오톡 아이콘"></a></li>
+                                <li onclick='insta1()'><a href="#"><img src="img/insta_wh.png" alt="인스타그램 아이콘"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- kakao 팝업 내용 -->
+                    <div class="popup">
+                        <h1>ID : dbfl4109</h1>
+                        <div class="me_qr"><img src="img/my_qr.png" alt="최유리 프로필의 카카오톡 큐알코드"></div>
+                        <p>위 그림의 큐알코드를 스캔하시면,<br>저에게 카카오톡 메세지를 전송 하실 수 있습니다! :)</p>
+                        <a href="#" class="close"><img src="img/close_icon.png" alt="닫기 아이콘"></a>
+                    </div>
+                    <div class="form-elements">
+                        <fieldset class="pure-group">
+                          <label for="name">이름 : </label>
+                          <input id="name" name="name" placeholder="이름을 적어주세요 :)" />
+                        </fieldset>
+                  
+                        <fieldset class="pure-group">
+                          <label for="message">내용 : </label>
+                          <textarea id="message" name="message" rows="10"
+                          placeholder="저에게 전달할 내용을 적어주세요 :)"></textarea>
+                        </fieldset>
+                  
+                        <fieldset class="pure-group">
+                          <label for="email">발신자 메일 : </label>
+                          <input id="email" name="email" type="email" value=""
+                          required placeholder="발신자 본인의 메일을 적어주세요 :) (ex.honggildong@g.mail.com)"/>
+                        </fieldset>
+                        <button class="button-success pure-button button-xlarge">
+                          <i class="fa fa-paper-plane"></i>&nbsp;메일 보내기</button>
+                      </div>
+                  
+                      <!-- Customise the Thankyou Message People See when they submit the form: -->
+                      <div class="thankyou_message" style="display:none;">
+                        <h2>감사합니다 :) <br> 성공적으로 메일을 전송하였습니다.</h2>
+                      </div>
+                </form>
+            </div>
+            <footer>
+                <ul>
+                    <li>본 페이지는 상업적 목적이 아닌 개인 포트폴리오용으로 제작되었습니다.</li>
+                    <li>© 2022 choi, you ree. All Rights Reserved.</li>
+                </ul>
+            </footer>
+        </section>
+    </div>
+    <!-- Submit the Form to Google Using "AJAX" -->
+    <script data-cfasync="false" src="js/form-submission-handler.js"></script>
+    <div class="ball"></div>
+    <!-- 마우스커서 효과 -->
+    <div class="cursor"></div>
+    <script>
+        const circle = document.querySelector(".cursor");
+
+        document.addEventListener("mousemove", (e) => {
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+            circle.style.left = mouseX + 'px';
+            circle.style.top = mouseY + 'px';
+        });
+    </script>
+</body>
+</html>
